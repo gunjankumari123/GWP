@@ -1,0 +1,163 @@
+body{
+    margin:0;
+    padding:0;
+    background:white;
+}
+.toparea{
+    background:#B35550;
+    padding:10px 0;
+    text-align:center;
+    color:white;
+}
+.logoarea{
+    background:#F2C38B;
+    padding:40px 0;
+    text-align:center;
+}
+.logoarea img{
+    height:110px;
+}
+.logoarea h1{
+    color:#74353f;
+    font-weight:bolder;
+    text-shadow: 1px 1px 1px #74353f ;
+}
+.logoarea h4{
+    color:#212529;
+    text-shadow: 1px 1px 1px #74353f ;
+
+}
+
+
+.parea{
+    background:;
+    padding:30px 0;
+    text-align:center;
+}
+    .fullwidth{
+        width:100%;
+    }
+    .parea p{
+        text-align:justify;
+    }
+    .parea p:last-child{
+        text-align: right;
+    }
+.course{
+    background:url("yuo.png");
+    padding:59px 0;
+    text-align:center;
+}
+    .course h2{
+        align:center;
+    }
+    .course p{
+        background:white;
+        padding:15px;
+    }
+.box{
+    padding:32px 0;
+    margin:;
+    background:white;
+    width:100%;
+    overflow:hidden;
+}
+.box img{
+     width:100%;
+     transition:all 2s;
+     overflow:hidden;
+    }
+    .box:hover img{
+        transform:rotate(360deg);
+        overflow:hidden;
+    }
+    .footer{
+        background: #212529;
+    }
+    .footer h5{
+        color:#FFF;
+        border-left:solid 5px white ;
+        padding-left:10px;
+        margin: 40px 120px 5px -30px;
+    }
+    .footer h5:last-child{
+       margin-right: 50px;
+    }
+    .f1 p:nth-child(3){
+       color:#D37F55;
+    }
+    .f1 p:nth-child(3):hover{
+       color: #F2C38B;
+    }
+    .f1 p a:last-child {
+       color: #D37F55;
+       text-decoration: none;
+    }
+    .f1 p a:last-child:hover{
+       color: #F2C38B;
+    }
+   .f2{
+       color: #F2C38B;
+    }
+    .footer p{
+        margin: 5px 0 0 -34px;
+        color: #F2C38B;
+    }
+    .footer ul{
+        list-style: none;
+        margin-left:-65px ;
+    }
+    .footer ul li a{
+       color:#D37F55;
+       text-decoration: none;
+    }
+    .footer ul li{
+        margin: 5px 0;
+        color: #D37F55;
+        transition: all 1s;
+    }
+    .footer ul li:hover{
+        transform: translateX(10px);
+    }
+    .foot{
+       margin-top: 5px;
+        height: 2px;
+        background: linear-gradient(to right,transparent ,white 50%,transparent);
+    }
+    .foot1 p{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        text-align: center;
+        color: #FFF;
+    }
+    .menu{
+        background:#F8F9FA;
+     }
+     .menu ul li:last-child{
+        margin-left: 90px;
+        color: #0D6EFD;
+        border: solid 1px #0D6EFD;
+        border-radius: 10px;
+     }
+     .menu ul li:last-child{
+        color: #0D6EFD;
+     }
+     .menu ul li:last-child:hover{
+        background:#0D6EFD;
+     } 
+     .slide{
+        margin-left: 20px;
+      }
+      .slide col{
+        border:solid 1px #000;
+      }
+      .alumni{
+        background:url('black.jpg');
+        height:300px;
+    }
+    .alumni img{
+        margin: 40px 0 0 350px;
+    }
+
+    

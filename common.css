@@ -1,0 +1,131 @@
+*{
+    /* color: #000; */
+ }
+ body{
+     margin: 0;
+     padding: 0;
+ }
+ .toparea{
+     background: #B0534E;
+     padding: 10px 0;
+     color:#FFF;
+     text-align: center;
+ }
+ .toparea a{
+    text-decoration:none;
+    color: #FFF;
+ }
+ @keyframes name{
+    0%{
+        letter-spacing: 20px;
+        text-shadow: 0 0 8px #000;
+        color:rgba(0,0,0,0.1);
+        opacity: 0.5;
+    }
+    100%{
+        letter-spacing: 0px;
+    }
+ }
+ .A h2{
+    animation-name:name;
+    animation-duration:3s;
+ }
+.A{
+    background: #FFF;
+    text-align: center;
+    margin: 10px 0;
+}  
+ .headingarea{
+     background: #F2C38B;
+     padding:45px 0;
+     color: #74353F;
+     text-align: center;
+ }
+ .headingarea h1{   
+   font-family: 'IBM Plex Sans', sans-serif;
+     text-shadow: 5px 6px 5px rgba(0,0,0,0.2); 
+ }
+ .headingarea img{
+     height: 92px;
+ }
+ .headingarea h1{
+     color:#74353F;
+ }
+ .headingarea h4{
+     color: #212529;
+ }
+ .menu{
+    background:#F8F9FA;
+ }
+ .menu ul li:last-child{
+    margin-left: 90px;
+    color: #0D6EFD;
+    border: solid 1px #0D6EFD;
+    border-radius: 10px;
+ }
+ .menu ul li:last-child{
+    color: #0D6EFD;
+ }
+ .menu ul li:last-child:hover{
+    background:#0D6EFD;
+ }
+ .footer{
+     background: #212529;
+ }
+ .footer h5{
+     color:#FFF;
+     border-left:solid 5px white ;
+     padding-left:10px;
+     margin: 40px 120px 5px -30px;
+ }
+ .footer h5:last-child{
+    margin-right: 50px;
+ }
+ .f1 p:nth-child(3){
+    color:#D37F55;
+ }
+ .f1 p:nth-child(3):hover{
+    color: #F2C38B;
+ }
+ .f1 p a:last-child {
+    color: #D37F55;
+    text-decoration: none;
+ }
+ .f1 p a:last-child:hover{
+    color: #F2C38B;
+ }
+.f2{
+    color: #F2C38B;
+ }
+ .footer p{
+     margin: 5px 0 0 -34px;
+     color: #F2C38B;
+ }
+ .footer ul{
+     list-style: none;
+     margin-left:-65px ;
+ }
+ .footer ul li a{
+    color:#D37F55;
+    text-decoration: none;
+ }
+ .footer ul li{
+     margin: 5px 0;
+     color: #D37F55;
+     transition: all 1s;
+ }
+ .footer ul li:hover{
+     transform: translateX(10px);
+ }
+ .foot{
+    margin-top: 5px;
+     height: 2px;
+     background: linear-gradient(to right,transparent ,white 50%,transparent);
+ }
+ .foot1 p{
+     width: 100%;
+     padding-top: 10px;
+     padding-bottom: 50px;
+     text-align: center;
+     color: #FFF;
+ }
